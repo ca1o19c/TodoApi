@@ -1,22 +1,22 @@
 ﻿using System;
 
-namespace ConvertendoTipos
+namespace TypesConvert
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int inteiro = 100;
-            float real = 25.5f;
+            int myInt = 100;
+            float myFloat = 25.5f;
 
             // real = inteiro;
             // inteiro = (int) real;
 
             // String valorReal = real.ToString();
             
-            inteiro = Convert.ToInt32(real);
+            myInt = Convert.ToInt32(myFloat);
             
-            Console.WriteLine(inteiro);
+            Console.WriteLine(myInt);
         }
     }
 }
