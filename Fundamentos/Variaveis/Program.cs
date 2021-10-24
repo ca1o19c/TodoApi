@@ -10,7 +10,7 @@ namespace Variaveis
             idade = 19;
             var idade = 25;
 
-            var texto = "Textando";
+            var texto = "Testando";
             Console.WriteLine(texto);
         }
     }
