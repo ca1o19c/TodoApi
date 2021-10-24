@@ -21,6 +21,8 @@ namespace TiposPrimitivos
 
             String nome = "Caio Antonio";
             String documento = "329139123390";
+
+            var idade = 19;
         }
     }
 }
