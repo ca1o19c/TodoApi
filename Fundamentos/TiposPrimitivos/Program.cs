@@ -23,6 +23,11 @@ namespace TiposPrimitivos
             String documento = "329139123390";
 
             var idade = 19;
+
+            object quantidade;
+            quantidade = 1;
+            quantidade = 2.5;
+            quantidade = "Posso passar qualquer coisa";
         }
     }
 }
