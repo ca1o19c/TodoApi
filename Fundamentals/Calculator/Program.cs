@@ -56,7 +56,7 @@ namespace Calculator
 
         static float Multiplication(float v1, float v2)
         {
-            return v1 - v2;
+            return v1 * v2;
         }
 
         static float Divide(float v1, float v2)
