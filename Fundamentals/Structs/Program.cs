@@ -12,8 +12,8 @@ namespace Structs
             Console.WriteLine(product.Name);
             Console.WriteLine(product.Price);
 
-            var priceInDolar = product.PriceInDolar(5.65);
-            Console.WriteLine(priceInDolar);
+            var priceInDollar = product.PriceInDollar(5.65);
+            Console.WriteLine(priceInDollar);
         }
     }
 
@@ -30,9 +30,9 @@ namespace Structs
             Price = price;
         }
 
-        public double PriceInDolar(double dolar)
+        public double PriceInDollar(double dollar)
         {
-            return Price * dolar;
+            return Price * dollar;
         }
     }
 }
