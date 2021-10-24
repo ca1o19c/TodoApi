@@ -18,6 +18,9 @@ namespace TiposPrimitivos
             bool falso = false;
 
             char sexo = 'M';
+
+            String nome = "Caio Antonio";
+            String documento = "329139123390";
         }
     }
 }
