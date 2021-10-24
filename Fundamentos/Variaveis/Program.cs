@@ -8,7 +8,7 @@ namespace Variaveis
         {
             int idade;
             idade = 19;
-            var idade = 25;
+            var idade2 = 25;
 
             var texto = "Testando";
             Console.WriteLine(texto);
