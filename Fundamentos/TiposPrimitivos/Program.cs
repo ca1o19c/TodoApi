@@ -13,6 +13,9 @@ namespace TiposPrimitivos
             double meuDouble = 8.9;
             float meuFloat = 19.9f;
             decimal meuDecimal = 90.1m;
+
+            bool verdadeiro = true;
+            bool falso = false;
         }
     }
 }
