@@ -16,6 +16,8 @@ namespace TiposPrimitivos
 
             bool verdadeiro = true;
             bool falso = false;
+
+            char sexo = 'M';
         }
     }
 }
