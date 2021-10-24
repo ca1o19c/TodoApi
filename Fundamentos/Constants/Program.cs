@@ -1,14 +1,14 @@
 ﻿using System;
 
-namespace Constantes
+namespace Constants
 {
     class Program
     {
         static void Main(string[] args)
         {
-            const int IDADE_MINIMA = 18;
+            const int MINIMUM_AGE = 18;
             
-            Console.WriteLine(IDADE_MINIMA);
+            Console.WriteLine(MINIMUM_AGE);
         }
     }
 }
