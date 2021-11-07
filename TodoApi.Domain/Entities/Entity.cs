@@ -4,9 +4,9 @@ namespace TodoApi.Domain.Entities
 {
     public abstract class Entity : IEquatable<Entity>
     {
-        public Entity(Guid id)
+        public Entity()
         {
-            id = Guid.NewGuid();
+            Id = Guid.NewGuid();
         }
 
         public Guid Id { get; private set; }
