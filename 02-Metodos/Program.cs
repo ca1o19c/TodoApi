@@ -6,7 +6,11 @@ namespace _02_Metodos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Pessoa p = new Pessoa();
+
+            p.Apresentar();
+            p.Apresentar("Caio");
+            p.Apresentar("Caio", 19);
         }
     }
 }
