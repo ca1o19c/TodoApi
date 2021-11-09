@@ -12,7 +12,7 @@ namespace _01_Conceitos
         public string nome;
         public int idade;
 
-        // Metódos
+        // Métodos
         public void Mensagem()
         {
             Console.WriteLine(this.nome + " tem " + this.idade + " anos");
