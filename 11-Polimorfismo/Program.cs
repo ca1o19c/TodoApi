@@ -6,9 +6,9 @@ namespace _11_Polimorfismo
     {
         static void Main(string[] args)
         {
-            var l = new Lider();
-            var e = new Estag();
-            var t = new TechLead();
+            Imposto l = new Lider();
+            Imposto e = new Estag();
+            Imposto t = new TechLead();
 
             l.ImpostoSobreSalario(6800);
             l.ImpostoSobreAuxilioInternet(200);
